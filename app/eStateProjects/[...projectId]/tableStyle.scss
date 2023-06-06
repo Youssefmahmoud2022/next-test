@@ -1,0 +1,21 @@
+.tableBody td {
+    font-size: 2.6vw;
+   }
+   
+   .tableTr th {
+       font-size: 2.6vw;
+   }
+   
+   
+   @media (max-width: 700px) {
+       .tableBody td {
+           font-size: 13px;
+           font-weight: 600;
+          }
+          
+          .tableTr th {
+              font-size: 13px;
+              font-weight: 600;
+          }
+          
+   }

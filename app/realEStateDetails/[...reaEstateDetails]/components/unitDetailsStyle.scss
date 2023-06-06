@@ -1,0 +1,79 @@
+// .tableContainer th{
+//     border: 1.3px solid #E0E0E0!important;
+// }
+
+
+.unitInfoBoxOne,.unitInfoBoxTwo ,.resaleBox  {
+    border: 1px solid #777777;
+    border-bottom: none;
+    padding: 40px 30px 40px 20px;
+    position: relative;
+}
+
+.managementBox {
+    border: 1px solid #777777;
+    padding: 20px 30px 5px 20px;
+    position: relative;
+}
+
+.infoBoxOne  {
+    position: absolute;
+    right: -1.5px;
+    top: -20px;
+    background-color: #EBEBEB;
+    font-size: 30px;
+    padding: 10px 25px;
+    border-radius: 7px;
+}
+
+.infoBoxTwo {
+    position: absolute;
+    right: -1.5px;
+    top: -20px;
+    background-color: #EBEBEB;
+    font-size: 30px;
+    padding: 10px 25px;
+    border-radius: 7px;
+}
+
+.resaleBtn {
+    position: absolute;
+    right: -1.5px;
+    top: -20px;
+    background-color: #EBEBEB;
+    font-size: 30px;
+    padding: 5px;
+}
+
+@media (max-width: 600px) {
+    .infoBoxOne ,.infoBoxTwo, .resaleBtn {
+        font-size: 15px;
+    }
+
+    .unitInfoBoxOne , .unitInfoBoxTwo {
+        padding: 20px 10px 30px 10px;
+    }
+}
+
+
+.tableBody td {
+    font-size: 2em;
+   }
+   
+   .tableTr th {
+       font-size: 2em;
+   }
+   
+   
+   @media (max-width: 700px) {
+       .tableBody td {
+           font-size: 13px;
+           font-weight: 600;
+          }
+          
+          .tableTr th {
+              font-size: 13px;
+              font-weight: 600;
+          }
+          
+   }
