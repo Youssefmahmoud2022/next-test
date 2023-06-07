@@ -143,16 +143,16 @@ const ProjectDetails = async (params) => {
         <div className="flex gap-5 mt-3 sale-rent-btns">
           <Link
             href={`/eStateProjects/${prId}/${typeNum}/${typeName}/rent/1`}
-            className={`p-2 px-3 rounded-md lg:btn-lg sm:btn-sm  text-white ${
-              saleOrRent == "rent" ? `baseBg` : `border-2 text-black`
+            className={`p-2 px-3 rounded-md lg:btn-lg sm:btn-sm ${
+              saleOrRent == "rent" ? `baseBg text-white` : `border-2 text-black`
             }`}
           >
             إيجار
           </Link>
           <Link
             href={`/eStateProjects/${prId}/${typeNum}/${typeName}/sale/1`}
-            className={`p-2 px-3 rounded-md lg:btn-lg sm:btn-sm text-white ${
-              saleOrRent == "sale" ? `baseBg` : `border-2 text-black`
+            className={`p-2 px-3 rounded-md lg:btn-lg sm:btn-sm ${
+              saleOrRent == "sale" ? `baseBg text-white` : `border-2 text-black`
             }`}
           >
             بيع

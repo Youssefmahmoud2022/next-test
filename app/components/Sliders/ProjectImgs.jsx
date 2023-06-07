@@ -13,7 +13,7 @@ const ProjectImgs = ({data}) => {
   return (
     <Swiper
     dir="rtl"
-    className={`inline project-img-slider w-[600px] max-[600px]:w-[350px]`}
+    className={`inline project-img-slider w-[600px] max-[600px]:w-[100%]`}
     navigation
     effect=""
     speed={300}

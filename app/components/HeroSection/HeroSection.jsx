@@ -10,7 +10,7 @@ const HeroSection = () => {
     aria-label="WelcomeToSharek"
     style={{ zIndex: "0" }}
     dir="rtl"
-    className={`welcome-section relative max-[500px]:h-[50vh] min-[500px]:h-[90vh] overflow-hidden`}
+    className={`welcome-section overflow-x-hidden relative max-[500px]:h-[50vh] min-[500px]:h-[90vh] overflow-hidden`}
   >
         <img
           src="/assets/imgs/hero.jpeg"
